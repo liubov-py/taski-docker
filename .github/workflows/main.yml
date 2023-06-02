@@ -11,7 +11,7 @@ jobs:
     # Разворачиваем окружение:
     runs-on: ubuntu-latest
 
-     services:
+    services:
       postgres:
         image: postgres:13.10
         # Указываем имя тестовой базы, имя и пароль пользователя в открытом виде,
